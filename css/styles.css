@@ -50,13 +50,43 @@ table {
 /* END OF CSS RESET*/
 
 /*STARTING PART OF THE HOMEWORK*/
-
-.container .things-within {
-    width: 150px;
+h1{
+	font-size: 40px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	background-color: brown;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding-left: 20px;
+	font-weight: bold;
 }
 
-body .container{
-	background-color: pink;
+body{
+	background-color: rgb(245, 239, 240);
+	padding-left: 641px;
+	padding-right: 641px;
 
+}
+
+#smile{
+   width: 400px;
+	height: 400px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	float: left;
+	padding: 0 20px 20px 0;
+}
+
+p{
+	font-size: 40px;
+}
+.container .things-within{
+	display: flex;
+}
+@media screen and (max-width: 150px) {
+
+	#smile{
+		display: none;
+	}
 }
 
