@@ -69,20 +69,82 @@ body{
 }
 
 #smile{
-   width: 400px;
-	height: 400px;
-	margin-right: 20px;
-	margin-bottom: 20px;
+   width: 500px;
+	height: 415px;
+	
+	margin-bottom: 10px;
 	float: left;
 	padding: 0 20px 20px 0;
 }
 
+
 p{
-	font-size: 40px;
+	font-size: 38px;
+	margin-bottom: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	
 }
+
+ul li{
+ font-size: 30px;
+ background-color: brown;
+ padding-left: 20px;
+ padding-bottom: 10px;
+}
+
+ul li:nth-child(1){
+	padding-top: 20px;
+	font-weight: bold;
+}
+
+ul li:nth-child(6){
+	padding-bottom: 20px;
+	font-size: 25px;
+}
+
+ul li:nth-child(3){
+	font-weight: bold;
+}
+
+ul li:nth-child(5){
+	font-weight: bold;
+}
+
+ul li:nth-child(2){
+	font-size: 25px;
+}
+
+ul li:nth-child(4){
+	font-size: 25px;
+}
+
+a:link{
+	text-decoration: none;
+	color: black;
+} 
+
+a:visited{
+	text-decoration: none;
+	color: black;
+} 
+
+a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+a:active{
+	text-decoration: none;
+	color: black;
+}
+
 .container .things-within{
 	display: flex;
 }
+
+
+
 @media screen and (max-width: 150px) {
 
 	#smile{
